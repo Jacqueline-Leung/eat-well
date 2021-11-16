@@ -18,5 +18,18 @@
     "nuxt": "^2.15.7",
     "sass-loader": "10.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": "## Build Setup",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacqueline-Leung/eat-well.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacqueline-Leung/eat-well/issues"
+  },
+  "homepage": "https://github.com/Jacqueline-Leung/eat-well#readme"
 }
