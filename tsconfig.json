@@ -1,0 +1,11 @@
+{
+    "include": [
+      "./src/**/*"
+    ],
+   "compilerOptions": {
+    "types": [
+      "@nuxt/types",
+      "@nuxt/content"
+    ]
+  }
+}
