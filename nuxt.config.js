@@ -8,7 +8,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+<<<<<<< HEAD
       { hid: 'description', name: 'description', content: 'Your favorite food website' },
+=======
+      { hid: 'description', name: 'description', content: '' },
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -39,7 +43,10 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+<<<<<<< HEAD
     '@nuxt/content'
+=======
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

@@ -3,7 +3,11 @@
     <!--import header from Header.vue-->
     <app-header></app-header>
     <div class="m-3 p-3 text-center">
+<<<<<<< HEAD
       <h3 class="display-5 text-secondary pt-2 pb-3">{{title}}</h3>
+=======
+      <h3 class="display-5 text-secondary pt-2 pb-3">Nutritions</h3>
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
       <img id="main-pic" class="img-fluid rounded-top" 
       src="../static/assets/tomatoes-cut.jpg" alt="tomatoes">
     </div>
@@ -23,6 +27,7 @@ export default {
   },
   data() {
     return{
+<<<<<<< HEAD
     title:'Nutritions'      
     }    
   },
@@ -38,6 +43,13 @@ export default {
         ]
       }
     }
+=======
+    
+      
+    }
+    
+  }
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
 }
 </script>
 

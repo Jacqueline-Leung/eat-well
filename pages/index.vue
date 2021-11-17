@@ -4,7 +4,10 @@
     <app-header></app-header>
     <!--apply v-if and v-else -->
      <div>
+<<<<<<< HEAD
            <h3 class="display-5 text-secondary pt-2 pb-3 text-center">{{title}}</h3>
+=======
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
           <div class="d-grid gap-2 col-4 m-3 mx-auto" display-2 mb-3>First time visitor?</div>
           <div class="d-grid gap-2 col-4 mx-auto">
           <b-button class="btn btn-success me-md-2" type="button" v-on:click="yes = !yes">Yes</b-button>         
@@ -28,6 +31,7 @@ export default {
   data() {
     return{
      yes: false,
+<<<<<<< HEAD
      no: false,
      title:'Eat Well'      
     }    
@@ -45,6 +49,11 @@ export default {
         ]
       }
     }
+=======
+     no: false,      
+    }    
+  }
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
 }
 </script>
 

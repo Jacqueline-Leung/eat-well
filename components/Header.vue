@@ -9,8 +9,12 @@
                             <nuxt-link to="/" class="nav-item nav-link" >Home</nuxt-link>
                             <nuxt-link to="/Recipes" class="nav-item nav-link" >Recipes</nuxt-link>                            
                             <nuxt-link to="/Nutritions" class="nav-item nav-link" >Nutritions</nuxt-link>
+<<<<<<< HEAD
                             <nuxt-link to="/MyCookbook" class="nav-item nav-link" >My Cookbook</nuxt-link> 
                             <nuxt-link to="doc-SEO" class="nav-item nav-link" >SEO</nuxt-link>                          
+=======
+                            <nuxt-link to="/MyCookbook" class="nav-item nav-link" >My Cookbook</nuxt-link>                           
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
                         </div>
                      </div>
                 </div>

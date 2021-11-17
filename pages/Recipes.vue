@@ -4,7 +4,11 @@
     <app-header></app-header>
     <div class="bg-danger" style="--bs-bg-opacity: .2">
             <div class="m-3 p-3 text-center">
+<<<<<<< HEAD
                 <h3 class="display-5 text-secondary pt-2 pb-3">{{title}}</h3>
+=======
+                <h3 class="display-5 text-secondary pt-2 pb-3">Recipes</h3>
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
                 <img id="main-pic" class="img-fluid rounded-top" 
                 src="../static/assets/sushi.jpg" alt="three raw samlmon sushi">
             </div>
@@ -36,8 +40,12 @@ export default {
     return{
      loading: true,     
      errored: false,
+<<<<<<< HEAD
      meals: null,
      title: 'Recipes'         
+=======
+     meals: null         
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
     }    
   },
   //retrieve data from API
@@ -49,6 +57,7 @@ export default {
       this.errored = true
       })
      .finally(() =>this.loading = false)
+<<<<<<< HEAD
   },
 
   head() {
@@ -63,6 +72,9 @@ export default {
         ]
       }
     }
+=======
+  }
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
 }
 </script>
 

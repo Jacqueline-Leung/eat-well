@@ -9,7 +9,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@nuxt/content": "^1.15.0",
+=======
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "bootstrap": "^4.6.0",
@@ -19,5 +22,22 @@
     "nuxt": "^2.15.7",
     "sass-loader": "10.1.1"
   },
+<<<<<<< HEAD
   "devDependencies": {}
+=======
+  "devDependencies": {},
+  "description": "## Build Setup",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacqueline-Leung/eat-well.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacqueline-Leung/eat-well/issues"
+  },
+  "homepage": "https://github.com/Jacqueline-Leung/eat-well#readme"
+>>>>>>> d1e0da4c169c5b5cb8fdce2f89539680e4bea587
 }
